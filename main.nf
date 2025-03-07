@@ -198,7 +198,7 @@ process split_bam{
 
     label 'isoforms'
     cpus params.threads
-    memory "8 GB"
+    memory "16 GB"
 
     input:
         tuple val(sample_id), path(bam)
